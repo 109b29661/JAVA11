@@ -28,6 +28,11 @@ class CStu implements Data,Test
       showData();
       showScore();
    }
+      public void showData()
+   {
+      System.out.println("學號:"+id);
+      System.out.println("姓名:"+name);
+   }
    public void showScore()
    {
       System.out.println("期中考成績:"+mid);
@@ -35,11 +40,7 @@ class CStu implements Data,Test
       System.out.println("平時成績:"+common);
       System.out.println("學期成績:"+calcu());
    }
-   public void showData()
-   {
-      System.out.println("學號:"+id);
-      System.out.println("姓名:"+name);
-   }
+
    public double calcu()
    {
       return (mid*0.3+finl*0.3+common*0.4);
