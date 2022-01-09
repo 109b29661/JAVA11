@@ -30,7 +30,7 @@ class Compute implements Math
       System.out.println("ans="+ans);
    }
 }
-public class hw10_5
+public class hw11_5
 {
    public static void main(String args[])
    {
