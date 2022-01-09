@@ -29,7 +29,7 @@ class Compute extends Math
       ans=a/b;
    }
 }
-public class hw10_12
+public class hw11_5
 {
    public static void main(String args[])
    {
